@@ -1,0 +1,102 @@
+body{
+  background-color: rgb(209, 206, 206);
+  padding-top: 70px;
+}
+
+.navcenter {
+  padding-left: 220px ;
+}
+
+.row-2 {
+  background-color: rgb(219, 214, 214);
+}
+
+img {
+  padding: 0;
+}
+
+.row-3 {
+  height: 346px;
+  background-image: url("https://www.deere.com/assets/images/common/home-page/jdfarmmustgoonheader1366x346-113020.jpg");
+  position: relative;
+  display: inline-block;
+  background-size: 100%;
+  background-position: center center;
+  transition: .75s ease-in-out;
+  
+}
+
+.row-3:hover{
+  background-size: 115%;
+}
+
+.button-3 {
+  position: absolute;
+  top: 175px;
+  left: 500px;
+  height: 50px;
+  width: 200px;
+  font-weight: 600;
+  border-radius: 0%;
+}
+
+h6 {
+  padding-left: 15px;
+  font-size: 18px;
+  padding-right: 0px;
+  padding-top: 7px;
+}
+
+h6:hover {
+color: rgb(255, 255, 83);
+cursor: pointer;
+}
+
+.row-1 {
+  cursor: pointer;
+}
+
+.img1{
+ overflow: hidden;
+ position: relative;
+}
+/* .btn-y{
+  position: absolute;
+  bottom: 20%;
+  left:50%;
+  opacity: .5;
+} */
+.layer {
+  background-color: rgba(85, 85, 82, 0.7);
+  position: absolute;
+  top: 0;
+  left: 250px;
+  width: 100%;
+  height: 100%;
+  color:aliceblue;
+}
+
+.layer1 {
+  background-color: rgba(85, 85, 82, 0.7);
+  position: absolute;
+  top: 0;
+  right: 222px;
+  width: 100%;
+  height: 100%;
+  color:aliceblue;
+}
+
+
+@media (min-width: 80%) {
+  .container {
+    width: 90%;
+  }
+}
+.box{
+  background-color: rgb(240, 232, 232);
+}
+
+
+.bg-footer{
+  background-color: rgb(236, 232, 232);
+}
